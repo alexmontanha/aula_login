@@ -1,8 +1,8 @@
-# teste_new_machine
+# Desafio do Login
 
-A new Flutter project.
+Exercício de Flutter.
 
-## Getting Started
+## Inicializando
 
 This project is a starting point for a Flutter application.
 
@@ -14,3 +14,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Project based on: https://github.com/putraxor/flutter-login-ui for educational purposes
