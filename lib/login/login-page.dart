@@ -44,26 +44,20 @@ class _LoginPageState extends State<LoginPage> {
 
     final loginButton = Padding(
       padding: EdgeInsets.symmetric(vertical: 16.0),
-      child: RaisedButton(
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(24),
-        ),
+      child: ElevatedButton(
+        child: Text('Login'),
         onPressed: () {
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => HomePage()));
         },
-        padding: EdgeInsets.all(12),
-        color: Colors.lightBlueAccent,
-        child: Text('Log In', style: TextStyle(color: Colors.white)),
       ),
     );
 
-    final forgotLabel = FlatButton(
-      child: Text(
-        'Forgot password?',
-        style: TextStyle(color: Colors.black54),
-      ),
-      onPressed: () {},
+    final forgotLabel = ElevatedButton(
+      child: Text('Forgot Password?'),
+      onPressed: () {
+        print('Pressed');
+      },
     );
 
     return Scaffold(
